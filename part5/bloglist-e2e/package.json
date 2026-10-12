@@ -1,0 +1,13 @@
+{
+  "name": "bloglist-e2e",
+  "version": "1.0.0",
+  "description": "Pruebas end-to-end de la lista de blogs con Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.54.0"
+  }
+}
